@@ -5,14 +5,14 @@ compatibility_date = "2025-05-20" # Or your project's compatibility date
 workers_dev = true
 
 kv_namespaces = [
-  { binding = "DATA_KV", id = "kv数据库的ID" }
+  { binding = "DATA_KV", id = "f2007e3b374f4e89a07d681f20d55590" }
 ]
 
 [vars]
 IMG_PROXY = ""  #图片代理链接，用于处理图片不显示
 OPEN_TRANSLATE = "true"
 USE_MODEL_PLATFORM = "GEMINI" #GEMINI, OPEN
-GEMINI_API_KEY = "xxxxxx-xxxxxx"
+GEMINI_API_KEY = "AIzaSyCg1Sh4WYwZHz7vJm0HFrTRXAePmYmrKSM"
 GEMINI_API_URL = "https://api-proxy.me/gemini" #网上公共的代理api
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
 OPENAI_API_KEY = "sk-xxxxxx" # Replace with your actual OpenAI API Key
